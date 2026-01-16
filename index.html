@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Parser</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>AI Website & Document Parser</h1>
+
+  <section>
+    <h2>Upload a file</h2>
+    <input type="file" id="fileInput" />
+  </section>
+
+  <section>
+    <h2>Or enter a website URL</h2>
+    <input type="text" id="urlInput" placeholder="https://example.com" />
+    <button id="fetchUrlBtn">Fetch & Analyze</button>
+  </section>
+
+  <section>
+    <h2>Question for the AI</h2>
+    <textarea id="question" rows="3" placeholder="Summarize this content..."></textarea>
+    <button id="askBtn">Ask</button>
+  </section>
+
+  <section>
+    <h2>Result</h2>
+    <pre id="output"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
